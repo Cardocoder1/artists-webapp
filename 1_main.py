@@ -7,18 +7,6 @@ st.set_page_config(layout="wide")
 import streamlit as st
 st.sidebar.header("sidebar")
 
-#___using css to hide fork button
-import streamlit as st
-
-st.markdown("""
-<style>
-[data-testid="stToolbar"] {display: none;}
-[data-testid="stAppDeployButton"] {display: none;}
-[data-testid="stDecoration"] {display: none;}
-footer {visibility: hidden;}
-</style>
-""", unsafe_allow_html=True)
-
 # Inject CSS to reduce top padding
 st.markdown("""
     <style>
