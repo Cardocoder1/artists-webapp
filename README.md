@@ -1,2 +1,2 @@
-# artists-webapp
-portifolio website for an artist.
+# youngkay
+this is the official website for youngkay.
