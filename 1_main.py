@@ -38,6 +38,15 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+#___injecting css to increase size of everything
+st.markdown("""
+<style>
+.stApp {
+    zoom: 1.1;   /* was 1.25; 1.0 is normal size */
+}
+</style>
+""", unsafe_allow_html=True)
+
 #___loaded assets___
 image_upload = Image.open("images/1_image.JPG")
 st.logo("images/profile.JPG",size="large")
