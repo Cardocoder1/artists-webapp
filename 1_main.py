@@ -123,7 +123,7 @@ st.markdown("""
 
 .link-bar a {
     display: inline-block;
-    padding: 5px 10px;
+    padding: 3px 7px;
     background-color:  #1e293b;
     color: #ffffff !important;
     text-decoration: none !important;
