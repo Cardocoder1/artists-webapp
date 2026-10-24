@@ -1,3 +1,2 @@
 streamlit
 pillow
-urllib.parse
